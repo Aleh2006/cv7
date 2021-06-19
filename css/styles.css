@@ -127,12 +127,17 @@ text-align: center;
 @media  (max-width:1028px) {
 
   #title{
-    text-align: center;
+   padding: 5% 20% 55%;
   }
 
   .title-image{
-    position: static;
-    transform: rotate(0);
+    position: center;
+    transform: rotate(25deg);
      width: 30%;
+    padding: 10% 5% 10%;
+  }
+  .row{
+    text-align:center;
+    padding: 0%;
   }
 }
